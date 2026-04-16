@@ -31,7 +31,7 @@
     --old-style-font: 'Cinzel';
     --simple-font: 'Noto Sans HK';
     --funky-font: 'MuseoModerno';
-    --sweet-font: 'Lobster';
+    /* --sweet-font: 'Lobster'; */
 }
 
 
@@ -41,17 +41,17 @@ body {
     CHALLENGE: change the background to one you like
     */
     
-    --background-image: var(--wooden);
+    --background-image: var(--nightsky);
     
     /*
     CHALLENGE: change the main color to one you like!
     */
-    --main-color: var(--snow);
+    --main-color: var(--candy);
     
      /* 
     CHALLENGE: change the font to one you think is cool
     */
-    font-family: var(--simple-font);
+    font-family: var(--funky-font);
 }
 
 
@@ -59,8 +59,9 @@ body {
     /* 
     BONUS CHALLENGE: adjust how many columns you'd like to have
     */
-   column-count: 2;
+   column-count: 4;
    column-gap: 10px;
+   border:5px solid #228B22;
 }
 
 
